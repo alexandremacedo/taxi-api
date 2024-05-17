@@ -89,7 +89,7 @@ To run the tests
 # Running all tests
 $ npm run test
 
-# Running test covarage
+# Running test coverage
 $ npm run test:cov
 ```
 

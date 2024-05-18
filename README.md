@@ -127,7 +127,7 @@ Future implementation
 
 ## API Documentation
 
-[Swagger Documentation](https://app.swaggerhub.com/apis/alexandremacedo/taxi-api/1.0.0#/Waypoints)
+[Swagger Documentation](https://app.swaggerhub.com/apis-docs/alexandremacedo/taxi-api/1.0.0)
 
 Disclaimer
 - The authentication is mocked by adding the query parameter "user_id"

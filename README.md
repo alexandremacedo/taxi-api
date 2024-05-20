@@ -97,13 +97,13 @@ $ npm run test:cov
 
 Routes:
 
-| Method | Endpoint                | Controller               | Action         | Authentication |
-| ------ | ----------------------- | ------------------------ | -------------- | -------------- |
-| POST   | /passenger/trip         | \src\trip\trip.controler | create trip    | yes            |
-| POST   | /driver/:tripId/confirm | \src\trip\trip.controler | confirm trip   | yes            |
-| POST   | /driver/:tripId/finish  | \src\trip\trip.controler | finish trip    | yes            |
-| GET    | /driver/trip            | \src\trip\trip.controler | list all trips | yes            |
-| DELETE | /driver/:tripId         | \src\trip\trip.controler | cancel trip    | yes            |
+| Method | Endpoint                | Controller                | Action         | Authentication |
+| ------ | ----------------------- | ------------------------- | -------------- | -------------- |
+| POST   | /passenger/trip         | \src\trip\trip.controller | create trip    | yes            |
+| POST   | /driver/:tripId/confirm | \src\trip\trip.controller | confirm trip   | yes            |
+| POST   | /driver/:tripId/finish  | \src\trip\trip.controller | finish trip    | yes            |
+| GET    | /driver/trip            | \src\trip\trip.controller | list all trips | yes            |
+| DELETE | /driver/:tripId         | \src\trip\trip.controller | cancel trip    | yes            |
 
 ## Decisions
 
